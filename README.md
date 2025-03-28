@@ -2,6 +2,8 @@
 Project Overview
 This tool fetches research papers from PubMed based on a user query and identifies papers with at least one author affiliated with a pharmaceutical or biotech company. The results are saved in a CSV file for easy analysis.
 
+
+
 1. How the Code is Organized
 The project is structured as follows:
 
@@ -30,6 +32,9 @@ The project is structured as follows:
 📄 pyproject.toml → Defines dependencies (managed by Poetry).
 📄 README.md → Instructions and project details.
 
+
+
+
 2. Installing Dependencies & Running the Program
 Install Dependencies
 Use Poetry to install all required packages:
@@ -57,6 +62,9 @@ sh
 Copy
 Edit
 poetry run get-papers-list "gene therapy" -d
+
+
+
 3. Tools & Libraries Used
 Programming & APIs
 Python – Core programming language
