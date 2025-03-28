@@ -42,21 +42,15 @@ poetry install
 Run the Program
 To fetch papers related to "cancer treatment" and display results:
 
-sh
-Copy
-Edit
+
 poetry run get-papers-list "cancer treatment"
 To save the results in a CSV file:
 
-sh
-Copy
-Edit
+
 poetry run get-papers-list "COVID-19 vaccine" -f results.csv
 To enable debug mode for troubleshooting:
 
-sh
-Copy
-Edit
+
 poetry run get-papers-list "gene therapy" -d
 
 3. Tools & Libraries Used
