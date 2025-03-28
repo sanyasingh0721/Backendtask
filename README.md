@@ -35,9 +35,7 @@ The project is structured as follows:
 Install Dependencies
 Use Poetry to install all required packages:
 
-sh
-Copy
-Edit
+
 poetry install
 Run the Program
 To fetch papers related to "cancer treatment" and display results:
