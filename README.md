@@ -2,7 +2,7 @@
 Project Overview
 This tool fetches research papers from PubMed based on a user query and identifies papers with at least one author affiliated with a pharmaceutical or biotech company. The results are saved in a CSV file for easy analysis.
 
-\n 1. How the Code is Organized
+ 1. How the Code is Organized
 The project is structured as follows:
 
 📂 pubmed_fetcher/ (Main package)
@@ -31,9 +31,7 @@ The project is structured as follows:
 📄 README.md → Instructions and project details.
 
 
-
-
-\n 2. Installing Dependencies & Running the Program
+ 2. Installing Dependencies & Running the Program
 Install Dependencies
 Use Poetry to install all required packages:
 
@@ -61,9 +59,7 @@ Copy
 Edit
 poetry run get-papers-list "gene therapy" -d
 
-
-
-\n 3. Tools & Libraries Used
+3. Tools & Libraries Used
 Programming & APIs
 Python – Core programming language
 
